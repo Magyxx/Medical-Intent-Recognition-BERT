@@ -1,0 +1,29 @@
+# --- Python 垃圾文件 ---
+__pycache__/
+*.pyc
+
+# --- Jupyter 缓存 (必须忽略，否则很乱) ---
+.ipynb_checkpoints/
+
+# --- 大型模型文件 (GitHub 限制单文件 100MB) ---
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.h5
+output/
+saved_model/
+bert_model/
+
+# --- 虚拟环境 (不要上传你的环境) ---
+venv/
+env/
+.env
+
+# --- IDE 配置 (个人的设置不用上传) ---
+.vscode/
+.idea/
+
+# --- 系统垃圾 ---
+.DS_Store
+Thumbs.db
